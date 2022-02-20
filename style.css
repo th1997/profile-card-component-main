@@ -2,7 +2,7 @@
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
 body{
@@ -14,9 +14,8 @@ body{
     background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
     background-position: top 220% left -60%, right -60% top -160%;
     background-repeat: no-repeat, no-repeat;
-    height: 100%;
     font-weight: 400;
-    min-height: 100vh;
+    min-height: 100vh
 }
 
 main{
@@ -29,7 +28,6 @@ main{
     align-items: center;
     border-radius: 15px 15px;
     width: 350px;
-    height: 100%;
     box-shadow: 0px 0px 20px 5px hsla(0, 0%, 5%, 0.285)
 }
 
@@ -37,33 +35,31 @@ main{
     border-radius: 50%;
     border:solid 5px;
     border-color: white;
-    margin-top: 84%;
+    margin-top: 83%;
 }
 
 .name_and_age{
     display: flex;
     margin-bottom: 2%;
-    margin-top: 4%;
+    margin-top: 4%
 }
 
 .age{
     margin-left: 8px;
-    margin-top: 1.5%;
+    margin-top: 1.5%
 }
 
 .name{
     color: hsl(229, 23%, 23%);
     font-weight: 700;
-    font-size: 18px;
+    font-size: 8.8px
 }
 
-.age, .city, .interaction p{
-    color:  hsl(0, 0%, 59%);
-}
+.age, .city, .interaction p{ color:  hsl(0, 0%, 59%) }
 
 .city{
     margin-bottom: 6%;
-    font-size: 15px;
+    font-size: 15px
 }
 
 .interaction{
@@ -73,19 +69,19 @@ main{
     border-color:  hsl(0, 0%, 59%);
     padding-top: 6%;
     margin-bottom: 7%;
-    width: 100%;
+    width: 100%
 }
 
 .interaction .stats{
     font-size: 18px;
     font-weight: 700;
-    color: hsl(229, 23%, 23%);
+    color: hsl(229, 23%, 23%)
 }
 
 .interaction p{
     font-size: 11px;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 2px
 }
 
 footer { 
@@ -94,7 +90,7 @@ footer {
     bottom: 0;
     left: 0;
     text-align: center;
-    color:black;
+    color:black
 }
 
 footer a { color: hsl(228, 45%, 44%) }
