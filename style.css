@@ -15,11 +15,14 @@ body{
     background-position: top 220% left -60%, right -60% top -160%;
     background-repeat: no-repeat, no-repeat;
     height: 100%;
+    font-weight: 400;
     min-height: 100vh;
 }
 
 main{
     background-color: white;
+    background-image: url("images/bg-pattern-card.svg");
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -27,21 +30,25 @@ main{
     border-radius: 15px 15px;
     width: 350px;
     height: 100%;
-}
-
-.card_BG img{
-    border-top-left-radius: 15px 15px;
-    border-top-right-radius: 15px 15px;
+    box-shadow: 0px 0px 20px 5px hsla(0, 0%, 5%, 0.285)
 }
 
 .img_profil img{
     border-radius: 50%;
     border:solid 5px;
     border-color: white;
+    margin-top: 84%;
 }
 
 .name_and_age{
     display: flex;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+
+.age{
+    margin-left: 8px;
+    margin-top: 1.5%;
 }
 
 .name{
@@ -50,12 +57,34 @@ main{
     font-size: 18px;
 }
 
-.age, .city{
+.age, .city, .interaction p{
     color:  hsl(0, 0%, 59%);
+}
+
+.city{
+    margin-bottom: 6%;
+    font-size: 15px;
 }
 
 .interaction{
     display: flex;
+    border-top: solid 1px;
+    justify-content: space-around;
+    border-color:  hsl(0, 0%, 59%);
+    padding-top: 6%;
+    margin-bottom: 7%;
+    width: 100%;
+}
+
+.interaction .stats{
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.interaction p{
+    font-size: 12px;
+    text-align: center;
 }
 
 footer { 
