@@ -83,8 +83,9 @@ main{
 }
 
 .interaction p{
-    font-size: 12px;
+    font-size: 11px;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 footer { 
